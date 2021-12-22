@@ -1,0 +1,37 @@
+nav-list {
+    width: 70%;
+
+    /* It is to display the list in
+        horizontal*/
+    display: flex;
+}
+.nav-list li a 
+{
+    text-decoration: none;
+    color:blue(248, 220, 220);
+}
+.nav-list li a:hover {
+    color:rgb(224, 37, 140);
+}
+*{
+    box-sizing: border-box;
+  }
+  .column {
+    float:left;
+    width: 80%;
+    padding:10px;
+  }
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }

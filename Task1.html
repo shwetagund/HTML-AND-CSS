@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .navbar{
+    /* position: fixed; */
+    width: 240px;
+    background-color: white;
+    height: 100%;
+    padding-left:0px ;
+    border-left: 10px solid blue;
+    margin-left: 20px;
+}
+
+ *{
+    color: black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    user-select: absolute;
+}
+nav ul{
+    height:100%;
+    width:100%;
+}
+nav ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    height:50px;
+}
+
+nav ul li a:hover{
+    background-color: skyblue;
+    text-decoration:dotted ;
+    border:dotted 3px black;
+}
+
+nav ul li a{
+     font-size: medium;
+     color: white;
+     display: block;
+     padding: 10px ;
+    position: relative;
+    width: 150px;
+    }
+
+    div.item {
+        /* To correctly align image, regardless of content height: */
+        vertical-align:top;
+        display: inline-block;
+        /* To horizontally center images and caption */
+        text-align: center;
+        /* The width of the container also implies margin around the images. */
+         width: 250px;
+         padding: 30px; 
+    
+}
+
+    img {
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+    
+    }
+    .caption {
+        /* Make the caption a block so it occupies its own line. */
+        display: block;
+        color:grey;
+
+    }
+    .abc
+        {
+            
+        display: flex;
+        align-content: center;
+        float: right;
+        position: absolute;
+        border-left: 2px solid blue;
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: auto;
+        /* width: 30%; */
+        padding: 10px;
+        /* display: block;  */
+        background-color: whitesmoke;
+    }
+    .abc2{
+        display: flex;
+        align-content: center;
+    
+    }
+    .abc3{
+          align-content: center;
+    }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="task1.css"> -->
+    <title>Overview Page</title>
+</head>
+
+<body>
+    <div class="abc">
+    <div class="nabvar">
+    <nav>
+    <ul>
+    
+            <li type="none"><a href="#">
+                <span class="item" >Overview</span>
+                 </a></li>
+            
+            <li type="none"><a href="#">
+                <span class="item">Connected Services</span>
+            </a></li>
+            
+            <li type="none"><a href="#">
+                <span class="item">Publish</span>
+            </a></li>
+    
+    </ul>
+ </nav>
+</div>
+ <br>
+
+ <div class="abc3">
+    
+         <h2 style="color: rgba(61, 61, 214, 0.418);"> ASP.NET CORE</h2>
+         <p> Learn about .Net platform,create your first application and extent to the cloud</p>
+  
+         
+
+<div class="abc2">
+<div class="item">
+    <img src="img1.png">
+    <span class="caption">build your app <br><br>
+    <strong style="color: rgba(0, 0, 255, 0.521);">ASP.NET core documentation</strong> <br><br>
+    <strong style="color: rgba(0, 0, 255, 0.521);">.NET Application arectiture</strong>
+    </span>
+</div>
+
+<div class="item">
+    <img src="img2.jpg">
+    <span class="caption">connect to the cloud <br><br>
+    <strong style="color: rgba(0, 0, 255, 0.521)">Publish your app to Azure</strong>  <br><br>
+    <strong style="color: rgba(0, 0, 255, 0.521);">Get started with ASP.NET on Azure</strong>
+    </span>
+</div>
+
+<div class="item">
+    <img src="img3.png">
+    <span class="caption">learn your IDE <br><br>
+    <strong style="color: rgba(0, 0, 255, 0.521)">See our Productivity guide</strong>  <br><br>
+    <strong style="color:rgba(0, 0, 255, 0.521);">Write code Faster</strong>
+    </span>
+</div>
+  </div>
+  </div>
+  </div>
+  
+
+  
+    </body>
+</html>
